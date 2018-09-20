@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            JavaScript Form
+        </title>
+        <style>
+            div {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <form onsubmit="return validateForm()"s>
+                <input type="text" id="username" placeholder="username"><div id="usernamediv"></div><br>
+                <input type="password" id="password" placeholder="password"><div id="passworddiv"></div><br>
+                <input type="text" id="firstname" placeholder="firstname"><div id="firstnamediv"></div><br>
+                <input type="text" id="lastname" placeholder="lastname"><div id="lastnamediv"></div><br>
+                <input type="text" id="email" placeholder="email"><div id="emaildiv"></div><br>
+                <input type="radio" id="gender" value="male" checked> Male<br>
+                <input type="radio" id="gender" value="female"> Female<br>
+                <input type="text" id="location" placeholder="location"><div id="locationdiv"></div><br>
+                <input type="submit" value="Submit"><br>
+        </form>
+        <br><br>
+        <table id="users" cellpadding="7">
+            <tr>
+                <th>username</th>
+                <th>password</th>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>email</th>
+                <th>gender</th>
+                <th>location</th>
+            </tr>
+            <tr>
+                
+            </tr>
+        </table>
+        <br><br>
+        <script src="script.js"></script>
+    </body>
+</html>
